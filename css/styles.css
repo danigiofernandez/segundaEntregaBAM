@@ -1,7 +1,13 @@
 #carouselExampleControls{
-    width: 100%;
+    width: 75%;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: center!important;
+    align-items: center!important;
+}
+p{
+    text-align: center;
+    margin: 20px;
 }
 .div-historia{
     display: flex;
@@ -9,7 +15,7 @@
     flex-wrap: wrap;
 }
 .div-table{
-    border: solid 1px gray;
+    border: solid 3px black;
     margin: 30px;
     padding: 4px;
     width: 100%;
@@ -20,6 +26,25 @@
 }
 .img-table{
     width: 50%;
+}
+.div-contenedor-index{
+    display: flex;
+    justify-content: center;
+    background-color: #a2a9b1;
+}
+body{
+    background-color: #a2a9b1;
+    color: black;
+}
+.div-contenedor-ficha-tecnica{
+    display: flex;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+.img-historia{
+    width: 100%;
+    border: 5px;
+    border-radius: 15px;
 }
 @media (max-width: 555px) {
     .div-table { 
